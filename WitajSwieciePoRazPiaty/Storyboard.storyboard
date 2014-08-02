@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="AGo-2i-Yt1">
+    <dependencies>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller - Żyrafa-->
+        <scene sceneID="xnb-PO-SL4">
+            <objects>
+                <viewController id="ZH0-je-INM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="f5G-QO-ENw"/>
+                        <viewControllerLayoutGuide type="bottom" id="EON-kh-orw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="peZ-7u-kaN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ŻYRAFA" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pJD-kj-oX1">
+                                <rect key="frame" x="136" y="273" width="65" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Żyrafa" image="giraffe-50" id="zBg-wt-Jlt"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fqi-nv-nce" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="563" y="-1100"/>
+        </scene>
+        <!--View Controller - Kot-->
+        <scene sceneID="pk5-Sj-aMA">
+            <objects>
+                <viewController id="qrh-7P-ebF" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="TD1-px-d71"/>
+                        <viewControllerLayoutGuide type="bottom" id="zXf-d6-1Gy"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1HJ-yZ-bF5">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="KOT" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R9b-Vh-P3l">
+                                <rect key="frame" x="147" y="273" width="35" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Kot" image="cat-50" id="QNO-sD-Mkd"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yxG-CB-rVB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="563" y="-447"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="nnj-9P-bBb">
+            <objects>
+                <tabBarController definesPresentationContext="YES" id="AGo-2i-Yt1" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="KuR-mH-tPH">
+                        <rect key="frame" x="129" y="330" width="163" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="ZH0-je-INM" kind="relationship" relationship="viewControllers" id="2sT-ZO-dQz"/>
+                        <segue destination="qrh-7P-ebF" kind="relationship" relationship="viewControllers" id="ESk-HS-2Ut"/>
+                        <segue destination="f7D-bn-Zmg" kind="relationship" relationship="viewControllers" id="KiZ-0L-0jO"/>
+                        <segue destination="Fmb-BL-m7b" kind="relationship" relationship="viewControllers" id="FTy-N9-wTf"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mWL-iR-P9w" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-115" y="80"/>
+        </scene>
+        <!--View Controller - Ośmiornica-->
+        <scene sceneID="8vf-kQ-wDs">
+            <objects>
+                <viewController id="f7D-bn-Zmg" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lCE-2L-ESP"/>
+                        <viewControllerLayoutGuide type="bottom" id="dnY-5R-6Rl"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="P7t-gG-qp3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="OŚMIORNICA" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t9D-ZA-ECQ">
+                                <rect key="frame" x="116" y="273" width="109" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Ośmiornica" image="octopus-50" id="eAu-zO-O04"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RWM-9Z-Oy1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="563" y="202"/>
+        </scene>
+        <!--View Controller - Świnia-->
+        <scene sceneID="s3H-wJ-Ttr">
+            <objects>
+                <viewController id="Fmb-BL-m7b" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9Hf-5m-hTT"/>
+                        <viewControllerLayoutGuide type="bottom" id="1Ss-su-8kS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="W7e-VV-7Bt">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ŚWINIA" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cR4-az-0ob">
+                                <rect key="frame" x="130" y="273" width="60" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Świnia" image="pig-50" id="xgZ-dp-PsC"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yVa-FP-z3Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="563" y="862"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="cat-50" width="25" height="25"/>
+        <image name="giraffe-50" width="25" height="25"/>
+        <image name="octopus-50" width="25" height="25"/>
+        <image name="pig-50" width="25" height="25"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
